@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://discord.gg/D8kWW4RbWV" target="_blank"><img src="https://img.shields.io/discord/931137677695266856?label=Discord&logo=Discord"></img></a>
+  <a href="https://discord.gg/D8kWW4RbWV" target="_blank"><img src="https://img.shields.io/discord/1016464944029519961?label=Discord&logo=Discord"></img></a>
 </div>
 <h1 align="center">CATCORD Discord Theme</h1>
 <img src="">
