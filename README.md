@@ -19,4 +19,4 @@ Installing betterdiscord themes is really easy!
 
 <h2>Need more help?</h2>
 
-No worries! Just head on over to issues on github.
+No worries! Just head on over to my <a href="https://discord.gg/D8kWW4RbWV" target="_blank">Discord Server</a>, you'll be sure to find whatever help you need by opening a support ticket!
