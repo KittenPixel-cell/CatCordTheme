@@ -1,0 +1,26 @@
+/**
+* @name Catcord
+* @author KittenPixel#4410
+* @version 1.0
+* @description Catcord Theme
+* @invite D8kWW4RbWV
+* @source https://github.com/KittenPixel-cell/CatCordTheme
+*/
+
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+@import url(https://raw.githubusercontent.com/KittenPixel-cell/CatCordTheme/main/css/main.css?token=GHSAT0AAAAAABZHTYEET6PBLEN6IUWPODLMY72T7VA);
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon');
+@import url('https://codedotspectra.github.io/themes/core/custom-font.css');
+
+
+:root {
+  --theme-background-image: url(http://wallpaperaccess.com/full/138588.jpg);
+  --main-theme-color: rgb(blue);
+  --theme-transparency: rgba(0, 0, 0, 0.8);
+  --home-icon-image: url(https://cdn.discordapp.com/attachments/888541115593162782/1079180822340440064/download-removebg-preview_1.png);
+  --home-icon-image-position: center center;
+  --home-icon-image-zoom: 100%;
+  --server-listing-width: 126px;
+  --font-size: 100%;
+  --customFont: 'Tilt Neon';
+}
