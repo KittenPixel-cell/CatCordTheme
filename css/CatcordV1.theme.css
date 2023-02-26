@@ -11,7 +11,7 @@
 @import url(https://raw.githubusercontent.com/KittenPixel-cell/CatCordTheme/main/css/main.css?token=GHSAT0AAAAAABZHTYEET6PBLEN6IUWPODLMY72T7VA);
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon');
 @import url('https://codedotspectra.github.io/themes/core/custom-font.css');
-
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
 :root {
   --theme-background-image: url(http://wallpaperaccess.com/full/138588.jpg);
@@ -23,4 +23,7 @@
   --server-listing-width: 126px;
   --font-size: 100%;
   --customFont: 'Tilt Neon';
+  --settingsmodalbackground: 	transparent;
+	--settingsmodalwidth: 		960px;
+	--settingsmodalheight: 		80vh;
 }
