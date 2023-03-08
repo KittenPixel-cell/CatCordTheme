@@ -19,6 +19,9 @@ Installing betterdiscord themes is really easy!
 - Move the .theme.css file you downloaded into the folder you just opened
 - Click the checkbox in the top-right corner of the theme in discord to enable it
 
+<h2>Changelog!</h2>
+- Added Catcord text instead of discord in top left
+
 <h2>Need more help?</h2>
 
 No worries! Just head on over to my <a href="https://discord.gg/D8kWW4RbWV" target="_blank">Discord Server</a>, you'll be sure to find whatever help you need by opening a support ticket!
