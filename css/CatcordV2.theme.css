@@ -8,13 +8,40 @@
 */
 
 @import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
-@import url(https://raw.githubusercontent.com/KittenPixel-cell/CatCordTheme/main/css/main.css?token=GHSAT0AAAAAABZHTYEET6PBLEN6IUWPODLMY72T7VA);
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon');
 @import url('https://codedotspectra.github.io/themes/core/custom-font.css');
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 @import url(https://raw.githubusercontent.com/KittenPixel-cell/CatCordTheme/main/css/CatCordV1.css?token=GHSAT0AAAAAABZHTYEE5GECYMXDI52FOEG2ZABDFRA);
 
+div[class*="typeWindows-"]>div:first-child {
+	display: none;
+}
+
+div[class*="typeWindows-"]>div[role="button"] {
+	height: 30px;
+	width: 36px;
+}
+
+div[class*="typeWindows-"]::after {
+	content: 'Catcord';
+	font-weight: 5000;
+	line-height: 23px;
+	color: var(--text-muted);
+	font-size: 14px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: absolute;
+	padding: 0 12px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background: rgba(var(--black), 0.85);
+	z-index: -1;
+}
+
 :root {
+  --font-primary:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	--font-display: var(--font-primary) !important;
   --theme-background-image: url(http://wallpaperaccess.com/full/138588.jpg);
   --main-theme-color: rgb(blue);
   --theme-transparency: rgba(0, 0, 0, 0.8);
@@ -23,8 +50,7 @@
   --home-icon-image-zoom: 100%;
   --server-listing-width: 126px;
   --font-size: 100%;
-  --customFont: 'Tilt Neon';
   --settingsmodalbackground: 	transparent;
-	--settingsmodalwidth: 		960px;
+	--settingsmodalwidth: 		960px;  
 	--settingsmodalheight: 		80vh;
 }
