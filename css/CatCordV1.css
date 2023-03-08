@@ -49,23 +49,33 @@
 	--backdropblur:					unset;
 }
 
+div[class*="typeWindows-"] {
+	--background-modifier-hover: rgba(var(--white), 0.05);
+	--background-modifier-active: rgba(var(--white), 0.075);
+	height: 26px;
+}
 
-html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > nav.sidebar-nqHbhN > div.side-1lrxIh > div.info-3pQQBb::after {
-	content: "Catcord by" !important;
-	font-size: 12px !important;
-	color: var(--text-muted) !important;
-	cursor: pointer !important;
-	display: inline !important;
-	opacity: 1 !important;
-	padding: 0 !important;
-	margin: 0 !important;
-	cursor: text !important;
-	visibility: visible !important;
-	position: relative !important;
-	top: unset !important;
-	left: unset !important;
-	bottom: unset !important;
-	right: unset !important;
-	transform: unset !important;
-	animation: unset !important;
+div[class*="typeWindows-"]>div:first-child {
+	display: none;
+}
+
+div[class*="typeWindows-"]>div[role="button"] {
+	height: 30px;
+	width: 36px;
+}
+
+div[class*="typeWindows-"]::after {
+	content: 'Catcord';
+	font-weight: 5000;
+	line-height: 31px;
+	color: var(--text-muted);
+	font-size: 14px;
+	position: absolute;
+	padding: 0 12px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background: rgba(var(--black), 0.85);
+	z-index: -1;
 }
